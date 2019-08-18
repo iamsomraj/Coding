@@ -59,7 +59,7 @@ class Main
                 System.out.println("\n\nEnter the position: ");
                 int pos = sc.nextInt();
                 for(int i = 0 ; i<str.length(); i++)
-                {
+                {inc
                     if(i==pos-1)
                     {
                         n = n + chr;
