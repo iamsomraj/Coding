@@ -4,7 +4,7 @@ Coding is a repository which I had created during my penultimate year of Bachelo
 
 ## Note
 
-All the programs are not correct. Will be fixing them soon.
+Few programs have bug. Will be fixing them soon.
 
 ## Objectives
 
