@@ -1,6 +1,10 @@
 # Coding
 
-Coding is a repository which I had during my penultimate year of Bachelor's degree. It helped me to prepare myself for those coding rounds that normally happens on the final year. This repository is pretty old. This was a private repository previously but now I have made it public with a purpose of practising my coding skills. I would be attempting C, Java and Python to all the existing programs. From now on, I will keep updating.
+Coding is a repository which I had created during my penultimate year of Bachelor's degree. It helped me to prepare myself for those coding rounds that normally happens for campussing on the final year. This repository is pretty old. This was a private repository previously but now I have made it public with a purpose of practising my coding skills. I would be attempting C, Java and Python to all the existing programs. From now on, I will keep updating.
+
+## Note
+
+All the programs are not correct. Will be fixing them soon.
 
 ## Objectives
 
