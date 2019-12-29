@@ -16,5 +16,4 @@ int main()
     printf("\n\nEnter the number : ");
     scanf("%d",&n);
     printf("\n\nThe factorial of %d is %d",n,factorial(n));
-    
 }
