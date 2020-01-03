@@ -14,7 +14,6 @@ int main()
         }
         for(k=1; k<=i; k++)
         {
-            int num;
             if(i==1 || k==i)
             {
                 arr[i][k]=1;
@@ -24,6 +23,7 @@ int main()
                 arr[i][k]=(arr[i-1][k])+(arr[i-1][k-1]);
             }
             printf("%d\t\t",arr[i][k]);
+
 
             
         }
