@@ -53,8 +53,12 @@ int main() {
 }
 void push(Node** head) {
     Node* new = create();
-    new->next = *head;
-    *head = new;
+    if ( *head == NULL ) {
+        *head = new;
+    } else {
+        new->next = *head;
+        *head = new;
+    }
 }
 void pop(Node** head) {
     if ( *head == NULL ) {
