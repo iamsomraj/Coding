@@ -33,8 +33,7 @@ void merge(int arr[], int low, int mid, int high) {
     }
 }
 
-/* l is for left index and r is right index of the
-sub-array of arr to be sorted */
+
 void mergeSort(int arr[], int low, int high) {
     if (low < high) {
         int mid = (int) ((low+high) / 2 );
