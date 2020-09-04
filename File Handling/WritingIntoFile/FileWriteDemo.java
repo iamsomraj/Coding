@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-class Source {
+class FileWriteDemo {
    public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
       System.out.println("\nEnter a file name for a new text file:");
@@ -16,6 +16,7 @@ class Source {
             fileWriter.write(fileContent.charAt(i));
          }
          System.out.println("File Writing Succesful!");
+         fileWriter.flush();
          fileWriter.close();
       } catch (IOException e) {
          System.out.println("Something went wrong while creating the file:");
