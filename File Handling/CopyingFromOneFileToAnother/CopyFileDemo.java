@@ -33,9 +33,7 @@ public class CopyFileDemo {
          fileReaderOne.close();
 
          // Second File Creation and Write
-         System.out.println("\nEnter the name of the second file: \n");
-         String fileName2 = scanner.nextLine();
-         fileName2 = fileName2 + ".txt";
+         String fileName2 = fileName1.substring(0, fileName1.length() - 4) + "-copy" + ".txt";
          FileWriter fileWriterTwo = new FileWriter(fileName2);
          for (int i = 0; i < fileContent1.length(); i++) {
             fileWriterTwo.write(fileContent1.charAt(i));
