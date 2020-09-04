@@ -5,9 +5,10 @@ import java.util.*;
 class Source {
    public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
-      System.out.println("\nEnter a file name for a new text file:\n");
+      System.out.println("\nEnter a file name for a new text file:");
+      System.out.println("\nUsing an existing file name will result into overwrite the previous file content\n");
       String fileName = scanner.nextLine();
-      System.out.println("\nEnter Something To Write Into A File:\n");
+      System.out.println("\nEnter something to write into the " + fileName + ".txt file:\n");
       String fileContent = scanner.nextLine();
       try {
          FileWriter fileWriter = new FileWriter(fileName + ".txt");
