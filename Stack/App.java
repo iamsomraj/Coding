@@ -24,7 +24,7 @@ class Stack {
 
   void push(int data) {
     if (this.length == max) {
-      System.out.println("Overload : Stack is full");
+      System.out.println("Overflow : Stack is full");
       return;
     } else {
       Node newNode = new Node(data);
